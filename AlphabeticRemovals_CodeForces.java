@@ -36,7 +36,6 @@ public class AlphabeticRemovals {
 		for(int i=s.length()-1;i>=0;i--){
 			char cur = s.charAt(i);
 			if(freq[cur-'a']>0){
-				//res=cur+res;
 				res.append(cur);
 				freq[cur-'a']--;
 			}
