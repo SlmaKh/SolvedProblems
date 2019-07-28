@@ -45,27 +45,4 @@ public class AlphabeticRemovals {
 		
 		System.out.println(res.reverse());
 		
-//		int counter=0;
-//		for(int i=0;i<26;i++){
-//			for(int j=0;j<s.length();j++){
-//				if(s.charAt(j)==a[i]){
-//					s=remove(s,j);
-//					i=-1;
-//					counter++;
-//					if(counter==k){
-//						System.out.println(s);
-//						System.exit(0);
-//					}
-//					break;
-//				}
-//			}
-//		}		
-	}
-
-	
-	public static String remove(String s, int index){
-		String first = s.substring(0,index);
-		String second=s.substring(index+1);
-		return first+second;
-	}
 }
