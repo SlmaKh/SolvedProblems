@@ -18,11 +18,8 @@ public class ReversingEncryption_CodeForces{
 		}
 		for(int x:ts){
 			String reverse=rev(t.substring(0,x));
-	    	//System.out.println("rev is "+ reverse);
 			String rest=t.substring(x);
-			//System.out.println("the rest is "+ rest);
 			t=reverse+rest;
-			//System.out.println(t);
 		}
 		System.out.println(t);
 		
